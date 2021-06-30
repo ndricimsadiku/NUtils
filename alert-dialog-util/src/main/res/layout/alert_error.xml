@@ -5,11 +5,10 @@
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorCharcoal_70"
         android:paddingTop="@dimen/space_normal"
         android:paddingBottom="@dimen/space_normal"
         android:translationZ="100dp"
-        app:cardBackgroundColor="@color/mainBackgroundColor"
+        app:cardBackgroundColor="@color/colorMainBackground"
         app:cardCornerRadius="@dimen/space_normal"
         app:cardElevation="@dimen/space_normal"
         app:cardUseCompatPadding="true">
@@ -27,6 +26,7 @@
                 android:textAlignment="center"
                 android:textColor="@color/errorTextColor"
                 android:textSize="@dimen/size_16"
+                android:fontFamily="@font/dmsans_medium"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -36,6 +36,7 @@
                 style="@style/AlertButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/dmsans_bold"
                 android:layout_margin="@dimen/space_normal"
                 android:text="Okay"
                 app:layout_constraintBottom_toBottomOf="parent"

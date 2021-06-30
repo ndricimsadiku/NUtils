@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="errorButtonBackgroundColor">#FDBFA6</color>
+    <color name="errorButtonTextColor">#FFF</color>
+    <color name="errorTextColor">#333333</color>
+</resources>

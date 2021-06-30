@@ -1,0 +1,3 @@
+rootProject.name = "NUtils"
+include ':app'
+include ':alert-dialog-util'

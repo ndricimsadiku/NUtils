@@ -4,4 +4,8 @@
     <color name="errorButtonTextColor">#FFF</color>
     <color name="errorTextColor">#333333</color>
     <color name="colorMainBackground">#fff</color>
+    <color name="colorGreen">#5bda80</color>
+    <color name="colorErrorIconColor">#666</color>
+    <color name="colorStone">#F7F5F6</color>
+    <color name="colorError">#FE536C</color>
 </resources>

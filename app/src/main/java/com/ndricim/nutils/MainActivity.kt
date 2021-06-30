@@ -3,6 +3,9 @@ package com.ndricim.nutils
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.ndricim.alert_dialog_util.showErrorDialog
+import com.ndricim.alert_dialog_util.showErrorSnackBar
+import com.ndricim.alert_dialog_util.showInternetConnectionSnackBar
+import com.ndricim.alert_dialog_util.showSuccessSnackBar
 import com.ndricim.nutils.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -18,8 +21,17 @@ class MainActivity : AppCompatActivity() {
     override fun onPostCreate(savedInstanceState: Bundle?) {
         super.onPostCreate(savedInstanceState)
 
-        binding.button.setOnClickListener {
+        binding.buttonAlert.setOnClickListener {
             showErrorDialog(this, "This is a testing error message")
+        }
+        binding.buttonSnackError.setOnClickListener {
+            showErrorSnackBar(this,"This is a test error message")
+        }
+        binding.buttonSnackSuccess.setOnClickListener {
+            showSuccessSnackBar(this,"This is a test success message")
+        }
+        binding.buttonSnackNoInternet.setOnClickListener {
+            showInternetConnectionSnackBar(this)
         }
     }
 }

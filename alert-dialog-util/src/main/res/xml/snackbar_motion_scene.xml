@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Transition
+        app:constraintSetEnd="@layout/custom_snackbar_end"
+        app:constraintSetStart="@layout/custom_snackbar">
+        <OnSwipe
+            app:dragDirection="dragUp"
+            app:touchAnchorId="@id/snackContainer"
+            app:touchAnchorSide="top" />
+    </Transition>
+</MotionScene>
